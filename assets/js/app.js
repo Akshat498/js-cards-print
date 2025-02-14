@@ -23,14 +23,14 @@ const cardsData = [
 
 function createCard(cardsData) {
     const card = document.createElement('div');
-    card.classList.add('col-12', 'col-md-6', 'col-xl-3', 'mb-24');
+    card.classList.add('col-12', 'col-md-6', 'col-xl-3', 'mb-4');
     let cardContent = `
     <div class="card  rounded-4">
       <img src="${cardsData.image}" class="card-img-top  w-100" alt="${cardsData.title}">
       <div class="card-body p-0">
-        <h5 class="card-title poppins-font text-black fw-semibold fs-md lh-150 mt-21 mb-0 ">${cardsData.title}</h5>
-        <div class=" gap-8 mt-12 align-items-center ">
-          <p class="date fs-sm poppins-ont lh-150 text-black text-center  fw-normal opacity-60 mb-4 text-center">${cardsData.description}</p>
+        <h5 class="card-title work-sans-font text-black fw-medium  fs-md lh-24 pt-24 mb-0 ">${cardsData.title}</h5>
+        <div class=" gap-8 pt-12 align-items-center ">
+          <p class="date fs-sm work-sans-font lh-24 fc-grey text-center   fw-normal mb-3 text-center">${cardsData.description}</p>
         </div>
     </div>
   `;
