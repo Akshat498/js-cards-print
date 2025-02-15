@@ -6,7 +6,7 @@ cardContent.forEach((card) => {
     cardElement.classList.add('col-12', 'col-md-6', 'col-xl-3', 'mb-4');
 
     cardElement.innerHTML = `
-        <div class="card ">
+        <div class="card overflow-hidden">
             <img src="${card.image}" class="card-img-top w-100" alt="${card.title}">
             <div class="card-body p-0">
                 <h5 class="card-title work-sans-font text-black fw-medium fs-md lh-24 pt-24 mb-0">${card.title}</h5>
