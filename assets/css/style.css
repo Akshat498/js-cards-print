@@ -28,9 +28,17 @@
     padding-top: 12px;
 }
 
+.icons{
+    right: -50% !important;
+    position: absolute;
+}
+
+.card:hover .icons{
+    right: 1% !important;
+}
+
 .svg-container {
     bottom: 75%;
-    right: 0;
     position: absolute;
     height: 40px;
     width: 40px;
@@ -40,23 +48,22 @@
     display: flex;
 }
 
-.svg-container:hover,
-.svg-container-2:hover,
-.svg-container-3:hover,
-.svg-container-4:hover {
+.card .svg-container:hover,
+.card .svg-container-2:hover,
+.card .svg-container-3:hover,
+.card .svg-container-4:hover {
     background-color: #FF5300;
 }
 
-.svg-container:hover path,
-.svg-container-2:hover path,
-.svg-container-3:hover path,
-.svg-container-4:hover path {
+.card .svg-container:hover path,
+.card .svg-container-2:hover path,
+.card .svg-container-3:hover path,
+.card .svg-container-4:hover path {
     fill: #FFff;
 }
 
 .svg-container-2 {
     bottom: 63%;
-    right: 0;
     position: absolute;
     height: 40px;
     width: 40px;
@@ -70,7 +77,6 @@
 .svg-container-3 {
     margin-top: 5px;
     bottom: 51%;
-    right: 0;
     position: absolute;
     height: 40px;
     width: 40px;
@@ -84,7 +90,6 @@
 .svg-container-4 {
     margin-top: 5px;
     bottom: 39%;
-    right: 0;
     position: absolute;
     height: 40px;
     width: 40px;

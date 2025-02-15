@@ -48,11 +48,11 @@ cardContent.forEach((card) => {
             <img src="${card.image}" class="card-img-top w-100" alt="${card.title}">
             <div class="card-body p-0">
                 <h5 class="card-title work-sans-font text-black fw-medium fs-md lh-24 pt-24 mb-0">${card.title}</h5>
-                <div class="gap-8 pt-12 align-items-center">
-                 <div class="svg-container position-absolute">${card.svg_one}</div>
-                  <div class="svg-container-2 position-absolute">${card.svg_two}</div>
-                       <div class="svg-container-3 position-absolute">${card.svg_three}</div>
-                             <div class="svg-container-4 position-absolute">${card.svg_four}</div>
+                <div class="gap-8 pt-12 align-items-center ">
+                 <div class="svg-container position-absolute icons">${card.svg_one}</div>
+                  <div class="svg-container-2 position-absolute icons">${card.svg_two}</div>
+                       <div class="svg-container-3 position-absolute icons">${card.svg_three}</div>
+                             <div class="svg-container-4 position-absolute icons">${card.svg_four}</div>
                 </div>
                 <p class="date fs-sm work-sans-font lh-24 fc-grey text-center fw-normal mb-3">${card.description}</p>
             </div>
