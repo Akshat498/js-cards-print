@@ -9,7 +9,6 @@
 }
 
 .card {
-    border: none !important;
     background: #FFFFFF;
     transition: all 400ms linear !important;
     box-shadow: 0px 8px 35px rgba(0, 0, 0, 0.1);
@@ -28,24 +27,20 @@
     padding-top: 12px;
 }
 
-.icons{
+.icons {
     right: -50% !important;
-    position: absolute;
 }
 
-.card:hover .icons{
-    right: 1% !important;
+.card:hover .icons {
+    right: 0% !important;
+    transition: all 300ms;
 }
 
 .svg-container {
     bottom: 75%;
-    position: absolute;
     height: 40px;
     width: 40px;
     background-color: #FFff;
-    align-items: center;
-    justify-content: center;
-    display: flex;
 }
 
 .card .svg-container:hover,
@@ -53,6 +48,8 @@
 .card .svg-container-3:hover,
 .card .svg-container-4:hover {
     background-color: #FF5300;
+    box-shadow: 1px 7px 10px 0px #FF530080;
+    transition: all 300ms;
 }
 
 .card .svg-container:hover path,
@@ -60,44 +57,32 @@
 .card .svg-container-3:hover path,
 .card .svg-container-4:hover path {
     fill: #FFff;
+    transition: all 300ms;
 }
 
 .svg-container-2 {
     bottom: 63%;
-    position: absolute;
     height: 40px;
     width: 40px;
     background-color: #FFff;
-    align-items: center;
-    justify-content: center;
-    display: flex;
     margin-top: 5px;
 }
 
 .svg-container-3 {
     margin-top: 5px;
     bottom: 51%;
-    position: absolute;
     height: 40px;
     width: 40px;
     background-color: #FFff;
-    align-items: center;
-    justify-content: center;
-    display: flex;
     margin-top: 4px;
 }
 
 .svg-container-4 {
     margin-top: 5px;
     bottom: 39%;
-    position: absolute;
     height: 40px;
     width: 40px;
     background-color: #FFff;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    margin-top: 4px;
 }
 
 .fs-sm {
